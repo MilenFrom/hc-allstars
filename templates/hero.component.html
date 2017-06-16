@@ -1,0 +1,10 @@
+<h1 class="main-title">{{title}}</h1>
+<div class="hero-element">
+<ul><li *ngFor="let hero of HEROES">
+<img [src]="hero.avatar" alt="{{hero.name}}" />
+<p>{{hero.name}}</p>
+<p><strong>Type:&nbsp;</strong>{{hero.type}}</p>
+<p><strong>Level:&nbsp;</strong>{{hero.level}}</p>
+<p><strong>Equipped with:&nbsp;</strong>{{hero.weapon}}</p>
+</li></ul>
+</div>

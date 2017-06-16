@@ -1,0 +1,11 @@
+h1.main-title{
+    color: #000000;
+}
+.hero-element img{
+    max-width: 100%;
+    height: auto;
+}
+.hero-element ul li{
+    display: inline-block;
+    margin: 10px;
+}
